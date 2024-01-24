@@ -7,7 +7,7 @@ CSupportWindow * CSupportWindow::m_this = nullptr;
 
 CSupportWindow::CSupportWindow(CProjectSupport & Support) :
     m_Support(Support),
-    m_TimeOutTime(30),
+    m_TimeOutTime(0),
     m_hParent(nullptr),
     m_Delay(false)
 {
@@ -122,9 +122,9 @@ LRESULT CSupportWindow::OnInitDialog(UINT /*uMsg*/, WPARAM /*wParam*/, LPARAM /*
     if (m_Delay && m_Support.RunCount() >= 15)
     {
         CMenuHandle menu = GetSystemMenu(false);
-        menu.RemoveMenu(SC_CLOSE, MF_BYCOMMAND);
+        // menu.RemoveMenu(SC_CLOSE, MF_BYCOMMAND);
         DWORD dwStyle = GetWindowLong(GWL_STYLE);
-        dwStyle |= CS_NOCLOSE;
+        // dwStyle |= CS_NOCLOSE;
         SetWindowLong(GWL_STYLE, dwStyle);
 
         GetDlgItem(IDCANCEL).EnableWindow(false);

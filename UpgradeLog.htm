@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+ <html xmlns:msxsl="urn:schemas-microsoft-com:xslt"><head><meta content="en-us" http-equiv="Content-Language" /><meta content="text/html; charset=utf-16" http-equiv="Content-Type" /><title _locID="ConversionReport0">
+          Migration Report
+        </title><style> 
+                    /* Body style, for the entire document */
+                    body
+                    {
+                        background: #F3F3F4;
+                        color: #1E1E1F;
+                        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+                        padding: 0;
+                        margin: 0;
+                    }
+
+                    /* Header1 style, used for the main title */
+                    h1
+                    {
+                        padding: 10px 0px 10px 10px;
+                        font-size: 21pt;
+                        background-color: #E2E2E2;
+                        border-bottom: 1px #C1C1C2 solid; 
+                        color: #201F20;
+                        margin: 0;
+                        font-weight: normal;
+                    }
+
+                    /* Header2 style, used for "Overview" and other sections */
+                    h2
+                    {
+                        font-size: 18pt;
+                        font-weight: normal;
+                        padding: 15px 0 5px 0;
+                        margin: 0;
+                    }
+
+                    /* Header3 style, used for sub-sections, such as project name */
+                    h3
+                    {
+                        font-weight: normal;
+                        font-size: 15pt;
+                        margin: 0;
+                        padding: 15px 0 5px 0;
+                        background-color: transparent;
+                    }
+
+                    /* Color all hyperlinks one color */
+                    a
+                    {
+                        color: #1382CE;
+                    }
+
+                    /* Table styles */ 
+                    table
+                    {
+                        border-spacing: 0 0;
+                        border-collapse: collapse;
+                        font-size: 10pt;
+                    }
+
+                    table th
+                    {
+                        background: #E7E7E8;
+                        text-align: left;
+                        text-decoration: none;
+                        font-weight: normal;
+                        padding: 3px 6px 3px 6px;
+                    }
+
+                    table td
+                    {
+                        vertical-align: top;
+                        padding: 3px 6px 5px 5px;
+                        margin: 0px;
+                        border: 1px solid #E7E7E8;
+                        background: #F7F7F8;
+                    }
+
+                    /* Local link is a style for hyperlinks that link to file:/// content, there are lots so color them as 'normal' text until the user mouse overs */
+                    .localLink
+                    {
+                        color: #1E1E1F;
+                        background: #EEEEED;
+                        text-decoration: none;
+                    }
+
+                    .localLink:hover
+                    {
+                        color: #1382CE;
+                        background: #FFFF99;
+                        text-decoration: none;
+                    }
+
+                    /* Center text, used in the over views cells that contain message level counts */ 
+                    .textCentered
+                    {
+                        text-align: center;
+                    }
+
+                    /* The message cells in message tables should take up all avaliable space */
+                    .messageCell
+                    {
+                        width: 100%;
+                    }
+
+                    /* Padding around the content after the h1 */ 
+                    #content 
+                    {
+	                    padding: 0px 12px 12px 12px; 
+                    }
+
+                    /* The overview table expands to width, with a max width of 97% */ 
+                    #overview table
+                    {
+                        width: auto;
+                        max-width: 75%; 
+                    }
+
+                    /* The messages tables are always 97% width */
+                    #messages table
+                    {
+                        width: 97%;
+                    }
+
+                    /* All Icons */
+                    .IconSuccessEncoded, .IconInfoEncoded, .IconWarningEncoded, .IconErrorEncoded
+                    {
+                        min-width:18px;
+                        min-height:18px; 
+                        background-repeat:no-repeat;
+                        background-position:center;
+                    }
+
+                    /* Success icon encoded */
+                    .IconSuccessEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconSuccess#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABcElEQVR4Xq2TsUsCURzHv15g8ZJcBWlyiYYgCIWcb9DFRRwMW5TA2c0/QEFwFkxxUQdxVlBwCYWOi6IhWgQhBLHJUCkhLr/BW8S7gvrAg+N+v8/v+x68Z8MGy+XSCyABQAXgBgHGALoASkIIDWSLeLBetdHryMjd5IxQPWT4rn1c/P7+xxp72Cs9m5SZ0Bq2vPnbPFafK2zDvmNHypdC0BPkLlQhxJsCAhQoZwdZU5mwxh720qGo8MzTxTTKZDPCx2HoVzp6lz0Q9tKhyx0kGs8Ny+TkWRKk8lCROwEduhyg9l/6lunOPSfmH3NUH6uQ0KHLAe7JYvJjevm+DAMGJHToKtigE+vwvIidxLamb8IBY9e+C5LiXREkfho3TSd06HJA13/oh6T51MTsfQbHrsMynQ5dDihFjiK8JJAU9AKIWTp76dCVN7HWHrajmUEGvyF9nkbAE6gLIS7kTUyuf2gscLoJrElZo/Mvj+nPz/kLTmfnEwP3tB0AAAAASUVORK5CYII=);
+                    }
+
+                    /* Information icon encoded */
+                    .IconInfoEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconInformation#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHElEQVR4Xs2TsUoDQRRF7wwoziokjZUKadInhdhukR9YP8DMX1hYW+QvdsXa/QHBbcXC7W0CamWTQnclFutceIQJwwaWNLlwm5k5d94M76mmaeCrrmsLYOocY12FcxZFUeozCqKqqgYA8uevv1H6VuPxcwlfk5N92KHBxfFeCSAxxswlYAW/Xr989x/mv9gkhtyMDhcAxgzRsp7flj8B/HF1RsMXq+NZMkopaHe7lbKxQUEIGbKsYNoGn969060hZBkQex/W8oRQwsQaW2o3Ago2SVcJUzAgY3N0lTCZZm+zPS8HB51gMmS1DEYyOz9acKO1D8JWTlafKIMxdhvlfdyT94Vv5h7P8Ky7nQzACmhvKq3zk3PjW9asz9D/1oigecsioooAAAAASUVORK5CYII=);
+                    }
+
+                    /* Warning icon encoded */
+                    .IconWarningEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconWarning#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAx0lEQVR4XpWSMQ7CMAxFf4xAyBMLCxMrO8dhaBcuwdCJS3RJBw7SA/QGTCxdWJgiQYWKXJWKIXHIlyw5lqr34tQgEOdcBsCOx5yZK3hCCKdYXneQkh4pEfqzLfu+wVDSyyzFoJjfz9NB+pAF+eizx2Vruts0k15mPgvS6GYvpVtQhB61IB/dk6AF6fS4Ben0uIX5odtFe8Q/eW1KvFeH4e8khT6+gm5B+t3juyDt7n0jpe+CANTd+oTUjN/U3yVaABnSUjFz/gFq44JaVSCXeQAAAABJRU5ErkJggg==);
+                    }
+
+                    /* Error icon encoded */
+                    .IconErrorEncoded
+                    {
+                        /* Note: Do not delete the comment below. It is used to verify the correctness of the encoded image resource below before the product is released */
+                        /* [---XsltValidateInternal-Base64EncodedImage:IconError#Begin#background-image: url(data:image/png;base64,#Separator#);#End#] */
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABQElEQVR4XqWTvUoEQRCE6wYPZUA80AfwAQz23uCMjA7MDRQEIzPBVEyNTQUFIw00vcQTTMzuAh/AxEQQT8HF/3G/oGGnEUGuoNnd6qoZuqltyKEsyzVJq5I6rnUp6SjGeGhESikzzlc1eL7opfuVbrqbU1Zw9NCgtQMaZpY0eNnaaL2fHusvTK5vKu7sjSS1Y4y3QUA6K3e3Mau5UFDyMP7tYF9o8cAHZv68vipoIJg971PZIZ5HiwdvYGGvFVFHmGmZ2MxwmQYPXubPl9Up0tfoMQGetXd6mRbvhBw+boZ6WF7Mbv1+GsHRk0fQmPAH1GfmZirbCfDJ61tw3Px8/8pZsPAG4jlVhcPgZ7adwNWBB68lkRQWFiTgFlbnLY3DGGM7izIJIyT/jjIvEJw6fdJTc6krDzh6aMwMP9bvDH4ADSsa9uSWVJkAAAAASUVORK5CYII=);
+                    }
+                 </style><script type="text/javascript" language="javascript"> 
+          
+            // Startup 
+            // Hook up the the loaded event for the document/window, to linkify the document content
+            var startupFunction = function() { linkifyElement("messages"); };
+            
+            if(window.attachEvent)
+            {
+              window.attachEvent('onload', startupFunction);
+            }
+            else if (window.addEventListener) 
+            {
+              window.addEventListener('load', startupFunction, false);
+            }
+            else 
+            {
+              document.addEventListener('load', startupFunction, false);
+            } 
+            
+            // Toggles the visibility of table rows with the specified name 
+            function toggleTableRowsByName(name)
+            {
+               var allRows = document.getElementsByTagName('tr');
+               for (i=0; i < allRows.length; i++)
+               {
+                  var currentName = allRows[i].getAttribute('name');
+                  if(!!currentName && currentName.indexOf(name) == 0)
+                  {
+                      var isVisible = allRows[i].style.display == ''; 
+                      isVisible ? allRows[i].style.display = 'none' : allRows[i].style.display = '';
+                  }
+               }
+            }
+            
+            function scrollToFirstVisibleRow(name) 
+            {
+               var allRows = document.getElementsByTagName('tr');
+               for (i=0; i < allRows.length; i++)
+               {
+                  var currentName = allRows[i].getAttribute('name');
+                  var isVisible = allRows[i].style.display == ''; 
+                  if(!!currentName && currentName.indexOf(name) == 0 && isVisible)
+                  {
+                     allRows[i].scrollIntoView(true); 
+                     return true; 
+                  }
+               }
+               
+               return false;
+            }
+            
+            // Linkifies the specified text content, replaces candidate links with html links 
+            function linkify(text)
+            {
+                 if(!text || 0 === text.length)
+                 {
+                     return text; 
+                 }
+
+                 // Find http, https and ftp links and replace them with hyper links 
+                 var urlLink = /(http|https|ftp)\:\/\/[a-zA-Z0-9\-\.]+(:[a-zA-Z0-9]*)?\/?([a-zA-Z0-9\-\._\?\,\/\\\+&%\$#\=~;\{\}])*/gi;
+                 
+                 return text.replace(urlLink, '<a href="$&">$&</a>') ;
+            }
+            
+            // Linkifies the specified element by ID
+            function linkifyElement(id)
+            {
+                var element = document.getElementById(id);
+                if(!!element)
+                {
+                  element.innerHTML = linkify(element.innerHTML); 
+                }
+            }
+            
+            function ToggleMessageVisibility(projectName)
+            {
+              if(!projectName || 0 === projectName.length)
+              {
+                return; 
+              }
+              
+              toggleTableRowsByName("MessageRowClass" + projectName);
+              toggleTableRowsByName('MessageRowHeaderShow' + projectName);
+              toggleTableRowsByName('MessageRowHeaderHide' + projectName); 
+            }
+            
+            function ScrollToFirstVisibleMessage(projectName)
+            {
+              if(!projectName || 0 === projectName.length)
+              {
+                return; 
+              }
+              
+              // First try the 'Show messages' row
+              if(!scrollToFirstVisibleRow('MessageRowHeaderShow' + projectName))
+              {
+                // Failed to find a visible row for 'Show messages', try an actual message row 
+                scrollToFirstVisibleRow('MessageRowClass' + projectName); 
+              }
+            }
+           </script></head><body><h1 _locID="ConversionReport">
+          Migration Report - </h1><div id="content"><h2 _locID="OverviewTitle">Overview</h2><div id="overview"><table><tr><th></th><th _locID="ProjectTableHeader">Project</th><th _locID="PathTableHeader">Path</th><th _locID="ErrorsTableHeader">Errors</th><th _locID="WarningsTableHeader">Warnings</th><th _locID="MessagesTableHeader">Messages</th></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#7zip">7zip</a></strong></td><td>Source\3rdParty\7zip\7zip.vcxproj</td><td class="textCentered"><a href="#7zipError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#asmjit">asmjit</a></strong></td><td>Source\3rdParty\asmjit\asmjit.vcxproj</td><td class="textCentered"><a href="#asmjitError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Common">Common</a></strong></td><td>Source\Common\Common.vcxproj</td><td class="textCentered"><a href="#CommonError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#discord-rpc">discord-rpc</a></strong></td><td>Source\3rdParty\discord-rpc\discord-rpc.vcxproj</td><td class="textCentered"><a href="#discord-rpcError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#duktape">duktape</a></strong></td><td>Source\3rdParty\duktape\duktape.vcxproj</td><td class="textCentered"><a href="#duktapeError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#JniBridge">JniBridge</a></strong></td><td>Source\Android\Bridge\Bridge.vcxproj</td><td class="textCentered"><a href="#JniBridgeError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#JoinSettings">JoinSettings</a></strong></td><td>Source\JoinSettings\JoinSettings.vcxproj</td><td class="textCentered"><a href="#JoinSettingsError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#PJ64 NRage">PJ64 NRage</a></strong></td><td>Source\nragev20\NRage_Input_V2.vcxproj</td><td class="textCentered"><a href="#PJ64 NRageError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#PluginInput">PluginInput</a></strong></td><td>Source\Android\PluginInput\PluginInput.vcxproj</td><td class="textCentered"><a href="#PluginInputError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#PluginRSP">PluginRSP</a></strong></td><td>Source\Android\PluginRSP\PluginRSP.vcxproj</td><td class="textCentered"><a href="#PluginRSPError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#png">png</a></strong></td><td>Source\3rdParty\png\png.vcxproj</td><td class="textCentered"><a href="#pngError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Project64">Project64</a></strong></td><td>Source\Project64\Project64.vcxproj</td><td class="textCentered"><a href="#Project64Error">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Project64-audio">Project64-audio</a></strong></td><td>Source\Project64-audio\Project64-audio.vcxproj</td><td class="textCentered"><a href="#Project64-audioError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Project64-core">Project64-core</a></strong></td><td>Source\Project64-core\Project64-core.vcxproj</td><td class="textCentered"><a href="#Project64-coreError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Project64-input">Project64-input</a></strong></td><td>Source\Project64-input\Project64-input.vcxproj</td><td class="textCentered"><a href="#Project64-inputError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Project64-rsp">Project64-rsp</a></strong></td><td>Source\Project64-rsp\Project64-rsp.vcxproj</td><td class="textCentered"><a href="#Project64-rspError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Project64-rsp-core">Project64-rsp-core</a></strong></td><td>Source\Project64-rsp-core\Project64-rsp-core.vcxproj</td><td class="textCentered"><a href="#Project64-rsp-coreError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Project64Setup">Project64Setup</a></strong></td><td>Source\Installer\Installer.vcxproj</td><td class="textCentered"><a href="#Project64SetupError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Project64-video">Project64-video</a></strong></td><td>Source\Project64-video\Project64-video.vcxproj</td><td class="textCentered"><a href="#Project64-videoError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#Settings">Settings</a></strong></td><td>Source\Settings\Settings.vcxproj</td><td class="textCentered"><a href="#SettingsError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#SortRdb">SortRdb</a></strong></td><td>Source\SortRdb\SortRdb.vcxproj</td><td class="textCentered"><a href="#SortRdbError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#UpdateVersion">UpdateVersion</a></strong></td><td>Source\UpdateVersion\UpdateVersion.vcxproj</td><td class="textCentered"><a href="#UpdateVersionError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#WTL">WTL</a></strong></td><td>Source\3rdParty\WTL\WTL.vcxproj</td><td class="textCentered"><a href="#WTLError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconErrorEncoded" /><td><strong><a href="#zlib">zlib</a></strong></td><td>Source\3rdParty\zlib\zlib.vcxproj</td><td class="textCentered"><a href="#zlibError">1</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#3rd Party">3rd Party</a></strong></td><td>3rd Party</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#Android">Android</a></strong></td><td>Android</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#PropertySheets">PropertySheets</a></strong></td><td>PropertySheets</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#">0</a></td></tr><tr><td class="IconSuccessEncoded" /><td><strong><a href="#Solution"><span _locID="OverviewSolutionSpan">Solution</span></a></strong></td><td>Project64.sln</td><td class="textCentered"><a>0</a></td><td class="textCentered"><a>0</a></td><td class="textCentered"><a href="#" onclick="ScrollToFirstVisibleMessage('Solution'); return false;">1</a></td></tr></table></div><h2 _locID="SolutionAndProjectsTitle">Solution and projects</h2><div id="messages"><a name="7zip" /><h3>7zip</h3><table><tr id="7zipHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClass7zip"><td class="IconErrorEncoded"><a name="7zipError" /></td><td class="messageCell"><strong>Source\3rdParty\7zip\7zip.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="asmjit" /><h3>asmjit</h3><table><tr id="asmjitHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassasmjit"><td class="IconErrorEncoded"><a name="asmjitError" /></td><td class="messageCell"><strong>Source\3rdParty\asmjit\asmjit.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Common" /><h3>Common</h3><table><tr id="CommonHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassCommon"><td class="IconErrorEncoded"><a name="CommonError" /></td><td class="messageCell"><strong>Source\Common\Common.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="discord-rpc" /><h3>discord-rpc</h3><table><tr id="discord-rpcHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassdiscord-rpc"><td class="IconErrorEncoded"><a name="discord-rpcError" /></td><td class="messageCell"><strong>Source\3rdParty\discord-rpc\discord-rpc.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="duktape" /><h3>duktape</h3><table><tr id="duktapeHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassduktape"><td class="IconErrorEncoded"><a name="duktapeError" /></td><td class="messageCell"><strong>Source\3rdParty\duktape\duktape.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="JniBridge" /><h3>JniBridge</h3><table><tr id="JniBridgeHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassJniBridge"><td class="IconErrorEncoded"><a name="JniBridgeError" /></td><td class="messageCell"><strong>Source\Android\Bridge\Bridge.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="JoinSettings" /><h3>JoinSettings</h3><table><tr id="JoinSettingsHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassJoinSettings"><td class="IconErrorEncoded"><a name="JoinSettingsError" /></td><td class="messageCell"><strong>Source\JoinSettings\JoinSettings.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="PJ64 NRage" /><h3>PJ64 NRage</h3><table><tr id="PJ64 NRageHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassPJ64 NRage"><td class="IconErrorEncoded"><a name="PJ64 NRageError" /></td><td class="messageCell"><strong>Source\nragev20\NRage_Input_V2.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="PluginInput" /><h3>PluginInput</h3><table><tr id="PluginInputHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassPluginInput"><td class="IconErrorEncoded"><a name="PluginInputError" /></td><td class="messageCell"><strong>Source\Android\PluginInput\PluginInput.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="PluginRSP" /><h3>PluginRSP</h3><table><tr id="PluginRSPHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassPluginRSP"><td class="IconErrorEncoded"><a name="PluginRSPError" /></td><td class="messageCell"><strong>Source\Android\PluginRSP\PluginRSP.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="png" /><h3>png</h3><table><tr id="pngHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClasspng"><td class="IconErrorEncoded"><a name="pngError" /></td><td class="messageCell"><strong>Source\3rdParty\png\png.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Project64" /><h3>Project64</h3><table><tr id="Project64HeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassProject64"><td class="IconErrorEncoded"><a name="Project64Error" /></td><td class="messageCell"><strong>Source\Project64\Project64.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Project64-audio" /><h3>Project64-audio</h3><table><tr id="Project64-audioHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassProject64-audio"><td class="IconErrorEncoded"><a name="Project64-audioError" /></td><td class="messageCell"><strong>Source\Project64-audio\Project64-audio.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Project64-core" /><h3>Project64-core</h3><table><tr id="Project64-coreHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassProject64-core"><td class="IconErrorEncoded"><a name="Project64-coreError" /></td><td class="messageCell"><strong>Source\Project64-core\Project64-core.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Project64-input" /><h3>Project64-input</h3><table><tr id="Project64-inputHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassProject64-input"><td class="IconErrorEncoded"><a name="Project64-inputError" /></td><td class="messageCell"><strong>Source\Project64-input\Project64-input.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Project64-rsp" /><h3>Project64-rsp</h3><table><tr id="Project64-rspHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassProject64-rsp"><td class="IconErrorEncoded"><a name="Project64-rspError" /></td><td class="messageCell"><strong>Source\Project64-rsp\Project64-rsp.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Project64-rsp-core" /><h3>Project64-rsp-core</h3><table><tr id="Project64-rsp-coreHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassProject64-rsp-core"><td class="IconErrorEncoded"><a name="Project64-rsp-coreError" /></td><td class="messageCell"><strong>Source\Project64-rsp-core\Project64-rsp-core.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Project64Setup" /><h3>Project64Setup</h3><table><tr id="Project64SetupHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassProject64Setup"><td class="IconErrorEncoded"><a name="Project64SetupError" /></td><td class="messageCell"><strong>Source\Installer\Installer.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Project64-video" /><h3>Project64-video</h3><table><tr id="Project64-videoHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassProject64-video"><td class="IconErrorEncoded"><a name="Project64-videoError" /></td><td class="messageCell"><strong>Source\Project64-video\Project64-video.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="Settings" /><h3>Settings</h3><table><tr id="SettingsHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassSettings"><td class="IconErrorEncoded"><a name="SettingsError" /></td><td class="messageCell"><strong>Source\Settings\Settings.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="SortRdb" /><h3>SortRdb</h3><table><tr id="SortRdbHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassSortRdb"><td class="IconErrorEncoded"><a name="SortRdbError" /></td><td class="messageCell"><strong>Source\SortRdb\SortRdb.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="UpdateVersion" /><h3>UpdateVersion</h3><table><tr id="UpdateVersionHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassUpdateVersion"><td class="IconErrorEncoded"><a name="UpdateVersionError" /></td><td class="messageCell"><strong>Source\UpdateVersion\UpdateVersion.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="WTL" /><h3>WTL</h3><table><tr id="WTLHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClassWTL"><td class="IconErrorEncoded"><a name="WTLError" /></td><td class="messageCell"><strong>Source\3rdParty\WTL\WTL.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="zlib" /><h3>zlib</h3><table><tr id="zlibHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="ErrorRowClasszlib"><td class="IconErrorEncoded"><a name="zlibError" /></td><td class="messageCell"><strong>Source\3rdParty\zlib\zlib.vcxproj:
+        </strong><span>The application which this project type is based on was not found. Please try this link for further information: 8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942</span></td></tr></table><a name="3rd Party" /><h3>3rd Party</h3><table><tr id="3rd PartyHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">3rd Party logged no messages.
+                  </td></tr></table><a name="Android" /><h3>Android</h3><table><tr id="AndroidHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">Android logged no messages.
+                  </td></tr></table><a name="PropertySheets" /><h3>PropertySheets</h3><table><tr id="PropertySheetsHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr><td class="IconInfoEncoded" /><td class="messageCell" _locID="NoMessagesRow">PropertySheets logged no messages.
+                  </td></tr></table><a name="Solution" /><h3 _locID="ProjectDisplayNameHeader">Solution</h3><table><tr id="SolutionHeaderRow"><th></th><th class="messageCell" _locID="MessageTableHeader">Message</th></tr><tr name="MessageRowHeaderShowSolution"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="ShowAdditionalMessages" href="#" name="SolutionMessage" onclick="ToggleMessageVisibility('Solution'); return false;">
+          Show 1 additional messages
+        </a></td></tr><tr name="MessageRowClassSolution" style="display: none"><td class="IconInfoEncoded"><a name="SolutionMessage" /></td><td class="messageCell"><strong>Project64.sln:
+        </strong><span>The solution file does not require migration.</span></td></tr><tr style="display: none" name="MessageRowHeaderHideSolution"><td class="IconInfoEncoded" /><td class="messageCell"><a _locID="HideAdditionalMessages" href="#" name="SolutionMessage" onclick="ToggleMessageVisibility('Solution'); return false;">
+          Hide 1 additional messages
+        </a></td></tr></table></div></div></body></html>
